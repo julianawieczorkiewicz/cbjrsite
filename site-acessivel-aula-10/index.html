@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Charlie Brown JR</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class=" p-5">
+
+        <nav class="container d-flex justify-content-between align-items-center" >
+            <img src="" class="nav-img " loading="lazy">
+            <ul class="nav mt-5">
+                <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+                <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+            </ul>
+            <div id="acessibilidade" class="menu-acessibilidade"> 
+                <button id="botao-acessibilidade" class="btn btn-primary fw-bold rotacao-botao" aria-expanded="false">acessibilidade</button>
+                <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista">
+                    <button id="aumentar-fonte" class="btn btn-primary fw-bold" aria-label="Aumentar o tamanho da fonte">A+</button>
+                    <button id="diminuir-fonte" class="btn btn-primary fw-bold" aria-label="diminuir o tamanho da fonte">A-</button>
+                    <button id="alterna-contraste" class="btn btn-primary fw-bold" aria-label="Alterna o contraste de cores"> <i class="bi bi-shadows"></i></button>         
+                </div>
+            </div>
+        </nav>
+       
+    </header>
+
+
+    <main class="container my-5">
+
+        <section id="inicio" class="my-5">
+            <div class="inicio-fundo d-flex justify-content-between align-items-center">
+                <div class="esquerda-conteudo">
+                    <h1 class="display-4 text-white fst-italic fw-bold">A Banda CBJR</h1>
+                    <img src="img/logo-cbjr.png" class="mb-3" width="463"
+                        height="378" loading="lazy">
+                    <a href="#tropicalia"
+                        class="btn btn-primary btn-lg botao-inicio fw-semibold">Quero
+                        conhecer!</a>
+                </div>
+                <img src="img/cbjrsolo.png" alt="A imagem apresenta o cantor principal, conhecido como Chorão, da banda Charlie Brown Jr, com um microfone em mãos." title="Charlie Brown Jr, OUT/2012 - CC BY-SA 2.0, via Wikimedia Commons.
+                " class="img-fluid img-inicio">
+
+              </div>
+        </section>
+
+        <section id="tropicalia" class="my-5 pt-6 secao-tropicalia" tabindex="0" aria-label="Seção explicativa sobre a BANDA.">
+            <div class="container d-flex align-items-center ">
+                <div class="col-4 d-flex justify-content-center ">
+                    <img src="img/LG2.png" class="rounded-pill" width="273" height="331" loading="lazy">
+                </div>
+                <div class="col-5">
+                    <h2>Quem foi Charlie Brown Jr?</h2>
+                    <p class="p-2">É uma das bandas mais relevantes do cenário musical 
+                        brasileiro, tendo seu ápice principalmente nos anos 90 e 2000. Criada em Santos, 
+                        São Paulo, em 1992, a banda misturava diversos gêneros musicais como rap, 
+                        reggae, punk e rock, criando músicas únicas que influenciaram diversas gerações. A 
+                        banda ficou conhecida principalmente por suas letras que incluíam temas como 
+                        juventude, rebeldia, relacionamentos, questões e críticas sociais. O nome "Charlie 
+                        Brown Jr." foi inspirado no personagem da tirinha Peanuts, de Charles Schulz. O 
+                        grupo teve uma grande identidade com o público jovem. O grupo era composto por 
+                        Chorão (Alexandre Magno Abrão), vocalista e líder da banda, Champignon (Luiz 
+                        Carlos Leão Duarte Júnior), baixista, Marcão (Marcelo Lessa), guitarrista e Pinguim 
+                        (Fabiano Lobo) , baterista. Fonte: Site WIKIPEDIA. Charlie Brown Jr.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria" tabindex="0" aria-label="Seção de galeria de imagens">
+            <h2 class="text-center pt-5">Galeria</h2>
+            <div class="container p-3 mt-3 fundo-galeria ">
+
+                <div class="row justify-content-md-center">
+                    <div class="col-md-4">
+                        <img src="img/Charlie_Brown_Jr._-_Outubro_2012.jpg" alt="A imagem possui o vocalista praticando uma manobra de skate." title="CBJR OUT2012- CC BY-SA 2.0 via Wikimedia Commons"
+                            class="img-fluid rounded-5" loading="lazy">
+                    </div>  
+                </div>
+                <div class="row mt-4  justify-content-md-center">
+                    <div class="col-md-4">
+                        <img src="img/CharlieBrownJr.2011.jpg" alt="três membros da banda sob o palco se apresentando." title="CharlieBrownJr.2011 by Andréatl- CC BY-SA 3.0." class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/Charlie_Brown_Jr-_Flickr.jpg" alt="Chorão, membro principal dando banho de champanhe nos fâs." title="Charlie Brown Jr- Flickr by Editorial J -  CC BY-SA 2.0." class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/GUITAR.jpg" alt="Membro da banda, Champingon, com seu baixo fazendo gesto rockeiro para os fãs" title="Charlie Brown Jr. - CC BY-SA 2.0" class="img-fluid rounded-5"
+                            loading="lazy">
+                    </div>
+                </div>
+             </div>
+        </section>
+
+        <section id="contato">
+            <div class="container p-5 d-flex justify-content-center">
+                <div class="col-md-8 col-lg-10 rounded-5 formulario"> <!-- Caixa do formulário com 60% de largura -->
+                    <h2 class="mb-3">Entre em contato</h2>
+                    <form>
+                        <div class="form-group mb-3">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" class="form-control rounded-3 mt-1"
+                                placeholder="Digite seu nome completo">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" class="form-control rounded-3 mt-1"
+                                placeholder="Digite seu email">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" class="form-control rounded-4 mt-2" rows="4"
+                                placeholder="Escreva sua mensagem"></textarea>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary btn-lg rounded-pill">Enviar
+                                mensagem</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="text-center p-3 fst-italic">
+        <p>Acesse nossas redes:</p>
+        <i class="bi bi-whatsapp"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-tiktok"></i>
+        <p class="mt-3">Desenvolvido por Start by Alura. Projeto fictício sem fins comerciais.</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.js"></script>
+    <script src="script.js"></script>
+  
+</body>
+
+</html>
